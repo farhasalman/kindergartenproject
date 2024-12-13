@@ -145,7 +145,7 @@ section{
   position: absolute;
   top: 50px;
   width: 150px;
-  animation: flyPlane 2s linear infinite;
+  animation: flyPlane 4s linear infinite;
   z-index: 1000;
 }
 
@@ -268,7 +268,7 @@ section{
     padding: .8rem 3rem;
     border-radius: 1.8rem;
     border: .2rem solid var(--pink);
-    color: var(--orange);
+    color: var(--white);
     background-image: linear-gradient(45deg,#df4881,#c430d7);
     border-top-right-radius: 0 ;
     transition: 0.5s;
@@ -462,6 +462,7 @@ section{
 }
 .cardcontainer .card img{
     height: 20rem;
+    width: 20rem;
   }
   
   .cardcontainer .card h2{
@@ -631,19 +632,26 @@ section{
   display: flex;
 }
 .contact .icons-container{
-    
+
+    width: 100%;
+    height: 400px;
     display: flex;               
     justify-content: space-between; 
     align-items: center;         
     gap: 20px;  
+    background-color: #e0e0e0;
                      
     
 }
 
 .contact .icons-container .icons{
   padding: 2rem;
+  margin: 5rem;
   width: 50rem;
-  box-shadow: var(--box-shadow);
+  box-shadow:  inset 8px 8px 15px #b8b8b8,  
+ inset -8px -8px 15px #ffffff; 
+        
+  /* box-shadow: var(--box-shadow); */
   border-radius: 2rem;
   text-align: center;
   outline: .1rem solid rgba(0,0,0,.1);
@@ -925,13 +933,13 @@ section{
 }
 
 h2 {
-  color: #0c3116;
+  color: #e8c6a6;
   font-size: 2.5em;
   margin: 15px 0;
 }
 
 p {
-  color: #0b0b0b;
+  color: #e8c6a6;
   font-size: 1.3em;
 }
 
